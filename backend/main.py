@@ -2,6 +2,7 @@ import openai
 import dotenv
 import os
 
+# sim
 # conexão via api do chatgpt 3.5
 dotenv()
 openai.api_key = os.getenv("api_key")
