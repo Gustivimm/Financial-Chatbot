@@ -6,6 +6,7 @@ import os
 dotenv()
 openai.api_key = os.getenv("api_key")
 
+# sim
 # função que conversa com o chatgpt (armazena e envia a mensagem do usuário; retorna a resposta do chatgpt)
 def send_message(user_message, list_message=[]):
     # adiciona à lista de mensagens a mensagem do usuário
